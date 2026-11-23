@@ -1,4 +1,5 @@
 import krimice from "./vite.png";
+import { useState } from "react";
 import "./App.css";
 
 type Section = "uvod" | "aktuality" | "jidelnicek" | "kontakty";
