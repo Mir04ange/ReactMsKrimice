@@ -1,4 +1,3 @@
-import { useState } from "react";
 import krimice from "./vite.png";
 import "./App.css";
 
