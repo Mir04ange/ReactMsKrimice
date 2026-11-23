@@ -1,4 +1,5 @@
 import { useState } from "react";
+import krimice from "./vite.png";
 import "./App.css";
 
 type Section = "uvod" | "aktuality" | "jidelnicek" | "kontakty";
@@ -41,8 +42,9 @@ export default function App() {
         <div className="page">
             <header className="header" id="uvod">
                 <a className="brand" href="#uvod" onClick={(e) => { e.preventDefault(); go("uvod"); }}>
-                    <img className="brand__logo" src="/logo.png" alt="Mateřská škola Plzeň - Křimice" />
-                    <span className="brand__text">
+
+                    <img className="brand__logo" src={krimice} alt="Mateřská škola Plzeň - Křimice" />
+                  <span className="brand__text">
             <strong>“Otevřená” školka</strong>
             <span>Máme společný cíl a k němu mnoho různých cest</span>
           </span>
