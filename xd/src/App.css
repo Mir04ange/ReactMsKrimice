@@ -340,3 +340,9 @@ button { font: inherit; cursor: pointer; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+
+
+.SomeLeft{
+    margin-left: 40%;
+}

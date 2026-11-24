@@ -15,6 +15,7 @@ const NEWS = [
     { date: "17. 2. 2027", title: "Informace pro rodiče", text: "Důležité zprávy přehledně na jednom místě." },
     { date: "17. 2. 2027", title: "Ze života školky", text: "Něco z naší každodenní školkové pohody." },
     { date: "17. 2. 2027", title: "Co nás čeká", text: "Programy pro vás a společné události." },
+    { date: "17. 2. 2027", title: "Závěr školního roku", text: "Přehled úspěchů a památných momentů." }
 ];
 
 const MENU = [
@@ -115,7 +116,7 @@ export default function App() {
                             ))}
                         </div>
                         <div className="menu__actions">
-                            <button className="btn btn--blue btn--small" onClick={() => setDayIndex((d) => d + 1)}>
+                            <button className="btn btn--blue btn--small   SomeLeft  "   onClick={() => setDayIndex((d) => d + 1)}>
                                 Další dny
                             </button>
                             <a className="link-light" href="#jidelnicek">Jsme tu pro vás</a>
